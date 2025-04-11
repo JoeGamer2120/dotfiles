@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on = ['g', 'r']
+run = 'cd /media/linuxhdd/RoseHulman/'
+desc = "Go to Rose folder"
+
+[[manager.prepend_keymap]]
+on = ['g', 'm', 't']
+run = 'cd /media/linuxhdd/TV Shows/'
+desc = 'Go to TV Shows folder'
+
+[[manager.prepend_keymap]]
+on = ['g', 'm', 'm']
+run = 'cd /media/linuxhdd/Movies/'
+desc = 'Go to Movies folder'
