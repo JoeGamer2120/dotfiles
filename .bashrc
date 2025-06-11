@@ -9,6 +9,7 @@ export PATH=~/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/u
 export MANPATH="/usr/share/man:/usr/local/man:/usr/local/local_dfs/man"
 EDITOR=nvim
 export EDITOR
+export HYPRSHOT_DIR=~/Pictures/Screenshots/
 
 # HISTORY SETTINGS
 HISTCONTROL=ignoreboth
@@ -54,3 +55,4 @@ function y() {
 
 # ALIAS
 alias dict='sdcv'
+alias hx='helix'
