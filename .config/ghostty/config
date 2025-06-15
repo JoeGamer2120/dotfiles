@@ -43,6 +43,7 @@
 # resize-overlay-duration = 4s 200ms
 # --------------------------------------------------------------------------------
 #
+theme = rose-pine-moon
 confirm-close-surface = false
 shell-integration-features = no-cursor
 cursor-style = block 
