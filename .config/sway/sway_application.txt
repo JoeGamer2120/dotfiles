@@ -1,0 +1,3 @@
+A list of interesting things to add to sway in the future
+https://github-wiki-see.page/m/swaywm/sway/wiki/Useful-add-ons-for-sway
+https://github.com/Biont/sway-launcher-desktop

@@ -47,3 +47,5 @@ theme = rose-pine-moon
 confirm-close-surface = false
 shell-integration-features = no-cursor
 cursor-style = block 
+background-opacity = 0.85
+background-blur = 20

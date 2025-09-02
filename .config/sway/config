@@ -31,7 +31,7 @@ set $menu wmenu-run
 ### Output configuration
 #
 # Wallpaper
-output * bg ~/Pictures/wallpaper/LOTR_Rivendell_2k.jpg stretch
+output * bg /media/linuxhdd/Wallpaper/Nature_DarkCherry_8k.jpg stretch
 #
 # Example configuration:
 #
