@@ -32,41 +32,28 @@
    // left modules  //
   ///////////////////
   "hyprland/workspaces": {
-    "disable-scroll": true,
+    "on-click": "activate",
+    "format": "{id}",
     "all-outputs": true,
-    "format": "{name}",
-    "persistent_workspaces": {
-        "1": [],
-        "2": [],
-        "3": [],
-        "4": [],
-        "5": []
-    }
-  //   "on-click": "activate",
-  //   "format": "{id}",
-  //   "all-outputs": true,
-  //   "disable-scroll": false,
-  //   "active-only": false,
-    // "persistent-workspaces": {
-        // "*": 5, // 5 workspaces by default on every monitor
-       // }
+    "disable-scroll": false,
+    "active-only": false,
+    "persistent-workspaces": {
+        "*": 5, // 5 workspaces by default on every monitor
+       }
   },
 
   // From another configuration, not sure what this does
-//  "hyprland/submap": [
-//    "format": "<span style=\"italic\">{}</span>"
-//  ]
+  "hyprland/submap": [
+    "format": "<span style=\"italic\">{}</span>"
+  ]
 
     ////////////////////
    // center modules //
   ////////////////////
-
   "hyprland/window": {
-    // "max-length": 50,
-    "format": "{title}",
-    // "separate-outputs": true
+    "max-length": 50,
+    "format": "{title}"
   },
-
     ///////////////////
    // right modules //
   ///////////////////
@@ -85,7 +72,7 @@
       "headphone": "",
       "default": [" ", " ", " "],
     },
-    "on-click": "pavucontrol",
+    "on-click": "flatpak run com.saivert.pwvucontrol",
   },
   "clock": {
     "format": " {:L%a %d %b}",
@@ -104,7 +91,6 @@
     "tooltip-format": "<span color='#cdd6f4' font='Lexend 16'><tt><small>{calendar}</small></tt></span>",
   },
   "clock#simpleclock": {
-    "timezone": "America/New_York",
     "tooltip": false,
     "format": " {:%I:%M:%S %p}",
     "interval": 1,
