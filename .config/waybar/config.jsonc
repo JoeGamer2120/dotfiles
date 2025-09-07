@@ -32,24 +32,24 @@
    // left modules  //
   ///////////////////
   "hyprland/workspaces": {
-    "disable-scroll": true,
+    // "disable-scroll": true,
+    // "all-outputs": true,
+    // "format": "{name}",
+    // "persistent_workspaces": {
+    //     "1": [],
+    //     "2": [],
+    //     "3": [],
+    //     "4": [],
+    //     "5": []
+    // }
+    "on-click": "activate",
+    "format": "{id}",
     "all-outputs": true,
-    "format": "{name}",
-    "persistent_workspaces": {
-        "1": [],
-        "2": [],
-        "3": [],
-        "4": [],
-        "5": []
-    }
-  //   "on-click": "activate",
-  //   "format": "{id}",
-  //   "all-outputs": true,
-  //   "disable-scroll": false,
-  //   "active-only": false,
-    // "persistent-workspaces": {
-        // "*": 5, // 5 workspaces by default on every monitor
-       // }
+    "disable-scroll": false,
+    "active-only": false,
+    "persistent-workspaces": {
+        "*": 5, // 5 workspaces by default on every monitor
+       }
   },
 
   // From another configuration, not sure what this does
