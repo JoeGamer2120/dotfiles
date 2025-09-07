@@ -45,9 +45,6 @@ fi
 #   alias egrep='egrep --color=auto'
 # fi
 
-# ZOXIDE
-eval "$(zoxide init bash)"
-
 # YAZI
 function y() {
   local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -67,3 +64,17 @@ alias ls='eza -lh --group-directories-first --icons=auto'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git'
 alias lta='lt -a'
+
+# STARSHIP
+# eval "$(starship init bash)"
+
+# ZOXIDE
+# eval "$(zoxide init bash)"
+
+if command -v starship &>/dev/null; then
+  eval "$(starship init bash)"
+fi
+
+if command -v zoxide &>/dev/null; then
+  eval "$(zoxide init bash)"
+fi
