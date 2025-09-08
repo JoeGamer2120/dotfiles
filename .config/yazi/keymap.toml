@@ -17,3 +17,8 @@ desc = 'Go to Movies folder'
 on   = "<Esc>"
 run  = "close"
 desc = "Cancel input"
+
+# MOUNT
+[[mgr.prepend_keymap]]
+on  = "M"
+run = "plugin mount"

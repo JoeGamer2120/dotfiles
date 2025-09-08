@@ -1,4 +1,9 @@
-[plugin]
-prepend_previewers = [
-  { name = "*.md", run = "glow" },
-]
+# PIPER
+[[plugin.append_previewers]]
+name = "*"
+run  = 'piper -- hexyl --border=none --terminal-width=$w "$1"'
+
+[[plugin.prepend_previewers]]
+name = "*.md"
+run  = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"'
+
