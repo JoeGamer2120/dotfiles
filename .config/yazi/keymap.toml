@@ -1,16 +1,16 @@
 [[mgr.prepend_keymap]]
 on = ['g', 'r']
-run = 'cd /media/linuxhdd/RoseHulman/'
+run = 'cd ~/linuxhdd/RoseHulman/'
 desc = "Go to Rose folder"
 
 [[mgr.prepend_keymap]]
 on = ['g', 'm', 't']
-run = 'cd /media/linuxhdd/TV Shows/'
+run = 'cd ~/linuxhdd/TV Shows/'
 desc = 'Go to TV Shows folder'
 
 [[mgr.prepend_keymap]]
 on = ['g', 'm', 'm']
-run = 'cd /media/linuxhdd/Movies/'
+run = 'cd ~/linuxhdd/Movies/'
 desc = 'Go to Movies folder'
 
 [[input.prepend_keymap]]
