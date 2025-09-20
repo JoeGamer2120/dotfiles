@@ -59,7 +59,8 @@ window#waybar {
 #battery,
 #tray,
 #custom-notification,
-#custom-power {
+#custom-power,
+#mpris {
   padding: 0.3rem 0.6rem;
   margin: 0.0rem 0.2rem;
   border-radius: 10px;
@@ -97,6 +98,14 @@ window#waybar {
 #workspaces button.urgent {
   background-color: @background;
   color: @color1;
+}
+
+#mpris.playing {
+  color: @color6;
+}
+
+#mpris.paused {
+  color: @color8;
 }
 
 #custom-sep {
