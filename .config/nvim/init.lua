@@ -709,6 +709,14 @@ require("lazy").setup({
 						},
 					},
 				},
+
+				tinymist = {
+					settings = {
+						formatterMode = "typstyle",
+						exportPdf = "onType",
+						semanticTokens = "disable",
+					},
+				},
 			}
 
 			-- Ensure the servers and tools above are installed
@@ -1039,6 +1047,8 @@ require("lazy").setup({
 		},
 	},
 })
+
+vim.opt.termguicolors = true
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
