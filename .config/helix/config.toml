@@ -1,0 +1,15 @@
+theme = "rose_pine_moon"
+
+[editor]
+line-number = "relative"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[keys.normal.space.t]
+s = ":toggle soft-wrap.enable"
