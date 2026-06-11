@@ -1052,3 +1052,13 @@ vim.opt.termguicolors = true
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Autoclose Plugin
+require("autoclose").setup({
+	options = {
+		disabled_filetypes = { "text", "markdown" },
+	},
+	keys = {
+		["$"] = { escape = true, close = true, pair = "$$", disabled_filetypes = {} },
+	},
+})

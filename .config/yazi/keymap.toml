@@ -1,17 +1,12 @@
 [[mgr.prepend_keymap]]
 on = ['g', 'r']
-run = 'cd ~/linuxhdd/RoseHulman/'
+run = 'cd /media/linuxhdd/RoseHulman/'
 desc = "Go to Rose folder"
 
 [[mgr.prepend_keymap]]
-on = ['g', 'm', 't']
-run = 'cd ~/linuxhdd/TV Shows/'
-desc = 'Go to TV Shows folder'
-
-[[mgr.prepend_keymap]]
-on = ['g', 'm', 'm']
-run = 'cd ~/linuxhdd/Movies/'
-desc = 'Go to Movies folder'
+on = ['g', 'm']
+run = 'cd /media/linuxhdd/Media/'
+desc = 'Go to Media folder'
 
 [[input.prepend_keymap]]
 on   = "<Esc>"

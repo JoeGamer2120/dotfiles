@@ -55,7 +55,7 @@
        }
   },
   "mpris": {
-    "player": ["cmus", "spotify-launcher"],
+    "player": ["cmus", "spotify-launcher", "tidal-hifi"],
     "dynamic-order": ["artist", "title"],
     "format": "{player_icon} {dynamic}",
     "format-paused": "{status_icon} <i>{dynamic}</i>",
@@ -69,7 +69,7 @@
     "on-scroll-up": "playerctl -p cmus volume 0.1+",
     "on-scroll-down": "playerctl -p cmus volume 0.1-",
 
-    "ignored-players": ["firefox"],
+    "ignored-players": ["firefox", "brave"],
   },
 
   // From another configuration, not sure what this does
@@ -111,6 +111,7 @@
 
   },
   "clock": {
+    "timezone": "America/New_York",
     "format": " {:L%a %d %b}",
     "calendar": {
       "format": {
